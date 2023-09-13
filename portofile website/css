@@ -1,1 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Crimson+Text:ital@1&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+.sidebar{
+    background-color: yellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+    
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding:33px 0;
+}
+
+
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+   
+.main{
+    background-color: yellow;
+    width: 90vw;
+
+}
+.container{
+    display: flex;
+}
+*cv.txt{
+color: blanchedalmond;
+}
+
+element.style {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    color: blue;
+}
+pre{
+    color: blue;
+}
+
+
+.infocontainer{
+    background-color: rgb(202, 9, 128);
+    height:58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.blogItem{
+    height: 444vh;
+    background-color: white;
+
+}
+
+.devInfo {
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    font-family: 'Abel', sans-serif;
+}
+   
+
+.hello{
+    font-size: 65px;  
+}
+
+.name{ 
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
+.about{
+    justify-content:center;
+    font-size: 30px;
+}
+
+.born{
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.moreabout{
+    justify-content:center;
+    font-size: 5px;
+    margin-top: 13px;
+    font-family: 'Caprasimo', cursive;
+    font-family: 'Crimson Text', serif;
+    
+}
+
+
+.buttons {
+    margin-top: 34px;
+}
+.my Intro{
+    background-color: blue;
+}
+    
+h3{
+    border-top: 33px;
+}
+.my achievements{
+    margin-top: 55px;
+}
+
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px  13px;
+    margin: 10px  0;
+    color: gold;
+}
+
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.devpic img{
+    height: 58vh;
+    width: 25vw;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.contactform h1{
+    font-family:bold;
+    padding: 12px   0;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin:6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form div{
+   
+    padding: 10px  0;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px  0;                     
+}
+.blogItems{
+    margin: 20px;
+
+}
+
+.intro h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.intro li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-right: auto;
+}
+.achievements container{
+    padding: 12px;
+    
+}
+
+.sidebarGO{
+    transform:translate(-43px,  0px);
+    position: absolute;
+    height: 100vh;
+}
+.element style{
+    transform: translateX(-100vw) translateZ(0px)
+}
+
+.hamburger{
+       position: absolute;
+        cursor: pointer;
+        top: 10px;
+        left:10px;
+
+}
+
+.ham{
+    margin-top: 10px;
+
+}
+
+.cross{
+    margin-left: 185px;
+    margin-top: 10px;
+   
+}
+
+@media (max-width: 1615px){
+    *{
+    
+       /* background-color:silver; */
+    
+    }
+    .devpic{
+        display: flex;
+    }
+    sidebar{
+        /*transform: translate(-443px,  0px);
+        position: absolute;*/
+    }
+ }
